@@ -1,0 +1,7 @@
+=== Dense vs MoE comparison ===
+metric                         dense (winner=midpoint)        moe (winner=leapfrog)         
+fixed-batch val loss           5.042585916519165              4.973290948867798             
+max batch size found           383                            383                           
+max-batch val loss             6.151026334762573              6.174352540969848             
+max-batch tokens/s             576681.2493353732              284852.24373127427            
+max-batch peak mem (MB)        119095.16032                   119102.334464             
