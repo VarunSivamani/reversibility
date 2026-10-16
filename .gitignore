@@ -1,0 +1,17 @@
+# Tokenized corpus (regenerated via `python -m reversibility.prepare_data`).
+data/
+
+# Python caches / build artifacts.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and editor state.
+.venv/
+venv/
+.vscode/
+.idea/

@@ -1,0 +1,11 @@
+# Install torch separately, matching your cluster's CUDA version, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# (see https://pytorch.org/get-started/locally/ for the right index URL).
+# torch>=2.4 is required for torch.nn.attention.sdpa_kernel /
+# SDPBackend.FLASH_ATTENTION (forced-FlashAttention path in model.py).
+torch>=2.4
+
+tiktoken>=0.7
+numpy>=1.26
+datasets>=2.19
+pynvml>=11.5
